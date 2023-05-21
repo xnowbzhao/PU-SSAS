@@ -10,8 +10,6 @@ data:
   pointcloud_noise: 0
   pointcloud_file: pointcloud.npz
 
-
-
 model:
   dim: 3
   encoder_kwargs:
