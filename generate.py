@@ -15,7 +15,7 @@ import fd.config
 import fn.config
 import fn.checkpoints
 import fd.checkpoints
-from generation_fast import Generator3D6
+from generation import Generator3D6
 import numpy as np
 def setup_seed(seed):
      torch.manual_seed(seed)
