@@ -75,8 +75,8 @@ device = torch.device("cuda" if is_cuda else "cpu")
 
 out_dir= 'out/pointcloud/opu'
 
-cfg1 = fn.config.load_config('configs/fn.yaml')
-cfg2 = fd.config.load_config('configs/fd.yaml')
+cfg1 = fn.config.load_config('config/fn.yaml')
+cfg2 = fd.config.load_config('config/fd.yaml')
 
 model = fn.config.get_model(cfg1, device)
 model2 = fd.config.get_model(cfg2, device)
