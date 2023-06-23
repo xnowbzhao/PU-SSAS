@@ -33,12 +33,26 @@ coming soon
 ## Dataset
 coming soon
 
-## Evaluation
+## Evaluation Code
 The code for evaluation can be download from:
 ```
 https://github.com/pleaseconnectwifi/Meta-PU/tree/master/evaluation_code
 https://github.com/jialancong/3D_Processing
 ```
+## Citation
+If the code is useful for your research, please consider citing:
+  
+    @ARTICLE{SelfPCU,
+      author={Zhao, Wenbo and Liu, Xianming and Zhai, Deming and Jiang, Junjun and Ji, Xiangyang},
+      journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+      title={Self-Supervised Arbitrary-Scale Implicit Point Clouds Upsampling}, 
+      year={2023},
+      volume={},
+      number={},
+      pages={1-13},
+      doi={10.1109/TPAMI.2023.3287628}}
+
+
 
 ## Acknowledgement
 The code is based on [occupancy_networks](https://github.com/autonomousvision/occupancy_networks/) and [DGCNN](https://github.com/WangYueFt/dgcnn), If you use any of this code, please make sure to cite these works.
