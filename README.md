@@ -1,6 +1,8 @@
 
 # PU-SSAS
+【Code of TPAMI paper】 
 
+Self-Supervised Arbitrary-Scale Implicit Point Clouds Upsampling
 
 ## Environment
 Pytorch 1.9.0
