@@ -4,6 +4,8 @@
 
 Self-Supervised Arbitrary-Scale Implicit Point Clouds Upsampling
 
+[Paper address](https://ieeexplore.ieee.org/abstract/document/10159515)
+ 
 ## Environment
 Pytorch 1.9.0
 
