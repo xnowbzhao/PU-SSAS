@@ -30,10 +30,35 @@ The 4X upsampling results will be created in the `testout` folder.
 Ground truth are provided by [Meta-PU](https://drive.google.com/file/d/1dnSgI1UXBPucZepP8bPhfGYJEJ6kY6ig/view?usp=sharing)
 
 ## Training
-coming soon
+Download the training dataset from the link and unzip it to /data/
+```
+https://pan.baidu.com/s/1yaacibc50d0dIWcW7OIxEA 
+access code:lmwf 
+```
 
-## Dataset
-coming soon
+Then run the following commands for training our network
+```
+python trainfn.py
+python trainfd.py
+```
+
+We will upload the dataset to onedrive later.
+
+
+## Generate Dataset
+
+Download the pointclouds and watertight meshes from the link and unzip it to /data/
+
+```
+https://pan.baidu.com/s/1kWstsZMiZOJuGm5yvpNI3Q 
+access code:208c 
+```
+
+Then run build.sh in /scripts/
+
+If you want to generate the pointclouds and watertight meshes from other dataset, please follow the link: [occupancy_networks#building-the-dataset](https://github.com/autonomousvision/occupancy_networks#building-the-dataset)
+
+We will upload the dataset to onedrive later.
 
 ## Evaluation Code
 The code for evaluation can be download from:
